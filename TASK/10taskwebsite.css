@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:  rgb(241, 230, 186); */
+}
+.main{
+    background-color: #f7edc4;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    /* border: 2px solid black; */
+}
+.logo{
+    margin-left: 30px;
+}
+.col-50{
+    color: black;
+}
+ul {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: black;
+    border: none;
+    color: blue ;
+    margin-right: 30px;
+}
+.wrapper{
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+.col-50{
+    font-size: 20px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.headh1{
+    /* margin: 0 auto; */
+    font-weight: 500;
+    font-size: 30px;
+}
+button.btn01{
+    background-color: rgb(239, 44, 44);
+    padding: 10px;
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+}
+.lamp01{
+    position: absolute;
+    /* top: 900px; */
+    bottom: 295px;
+    right: 24%;
+}
+.window01{
+    position: absolute;
+    top: 35%;
+    right: 40%;   
+}
+.window02{
+    position: absolute;
+    top: 35%;
+    right: 1%;
+}
+.illustration01{
+    position: absolute;
+    top: 50%;
+    right: 0.1%;
+}
+.plant01{
+    position: absolute;
+    top: 76%;
+    right: 63%;
+}
+.bookt{
+    margin-left: 5%;
+    font-size: 21px;
+    line-height: 33px;
+    color: #12202f;
+    font-weight: 700;
+    font-family: "Montserrat";
+
+}
+.headtab{
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 60%;
+    margin: 0 30px 0 30px;
+    filter: drop-shadow(0px 5px 10px  black);
+
+}
+.headtab2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+}
+.date01{
+    display: flex;
+}
+.date02{
+    
+}
+select{
+    border: none;
+    background-color: transparent;    
+}
+.date04{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(216, 192, 155);
+    height: 70px;
+    width: 209px; 
+    padding: 20px;
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+.time01{
+    display: flex;
+}
+.time04{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(216, 192, 155);
+    height: 70px;
+    width: 209px;
+    padding: 20px;
+}
+.mail01{
+    display: flex;
+}
+.mail04{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(216, 192, 155);
+    height: 70px;
+    width: 209px;
+    padding: 20px;
+}
+.mail001{
+    
+}
+button.check01{
+    width: 250px;
+    height: 70px;
+    border-radius: 28px;
+    background-color: #6bb99c;
+    color: bisque ;
+    /* margin: 0 auto; */
+}
+.khali{
+   color: white;
+}
+.page-2{
+    background-color: #f7edc4;
+}
+.page02{
+    /* background-color: #f7edc4; */
+    padding: 50px;
+}
+.page002{
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.delicious{
+    color: rgb(235, 158, 3);
+    font-size: 20px;
+}
+.food{
+    color: black;
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.box01{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+.box01-a{
+    /* height: 60px; */
+    /* width: 60px; */
+}
+button.read{
+    background-color: rgb(239, 44, 44);
+    color: white;
+    border-radius: 20px ;
+    height: 30px;
+    width: 100px;
+}
+.box02{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+.box03{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* page-3 */
+.page-3{
+    background-color: #f7edc4;
+}
+.page03{
+    padding: 70px;
+}
+.page003{
+    text-align: center;
+}
+.page3p{
+    color: teal;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button.read-3{
+    background-color: teal;
+    color:bisque;
+    border-radius: 20px ;
+    height: 30px;
+    width: 100px;
+}
+.page3h1{
+    font-size: 20px;
+}
+.ilustration02{
+    /* position: absolute; */
+    text-align: center;
+    padding: 100px;
+}
+.table01{
+    position: absolute;
+    top: 270%;
+    left: -100px;
+}
+.table02{
+    position: absolute;
+    top: 270%;
+    right: -100px;
+}
+.table03{
+    position: absolute;
+    top: 335%;
+    left: -20px;
+}
+.table04{
+    position: absolute;
+    top: 335%;
+    right: -20px;
+}
