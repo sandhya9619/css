@@ -78,7 +78,7 @@
   .header {
     position: relative;
     overflow: hidden;
-    background-color:rgb(46, 23, 117);
+    background-color: #21243d;
     color: white;
   } 
   /* #second {
@@ -154,32 +154,56 @@
 
 .page-3{
   background-color: rgb(226, 173, 37);
+  /* overflow-x: hidden; */
 }
 .page003{
   display: flex;
   padding: 70px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 .img01{
-  /* height: 100px ; */
+  z-index: 2;
 }
 .page03t{
-  /* text-align: center/; */
-  color: darkslateblue;
-  padding: 90px;
+  /* background-color: #21243d; */
+  color: #21243d;
+
+    padding: 90px;
   font-size: 30px;
 }
-.page05t{
-  color: darkslateblue;
-  padding: 90px;
-  font-size: 30px;
+.shape31{
+  position: absolute;
+  top: 235%;
+  left: 1%;
+  z-index: 1;
+}
+.shape32{
+  position: absolute;
+  top: 240%;
+  right: 43%;
+}
+.shape33{
+  position: absolute;
+  top: 240%;
+  right: 2%;
+}
+.shape34{
+  position: absolute;
+  top: 300%;
+  right: -4%;
+}
+.shape35{
+  position: absolute;
+  top: 310%;
 }
 
 
  /*........... page-4 css start here.................... */
  .page-4{
-  background-color:darkslateblue;
-  padding-bottom: 100px;
+  background-color: #21243d;
+    padding-bottom: 100px;
   padding-top: 100px;
 
 }
