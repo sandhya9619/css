@@ -4,24 +4,16 @@
     box-sizing: border-box;
     
   }
-  img {
-    /* width: 100%; */
-    /* height: 100px; */
-  }
   header{
     display: block;
     background-image: url(../WEBSITE/IMAGE/backgroundimg01.png);
     width: 100%;
     height: 760px;
   }
-  
-
   nav{
-    background-color: darkslateblue;
+    background-color: #21243d;
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
-    /* margin: 10px; */
     padding: 40px;
   }
   .search{
@@ -37,9 +29,7 @@
     margin: 10px 25px;
   }
   .col-00 h1{
-    /* margin: 30px; */
     padding: 50px;  
-    /* margin-top: -62px; */
   }
   .col-00 p{
     margin: 46px;
@@ -48,15 +38,13 @@
   }
 
   button{
-    background-color: darkslateblue;
+    background-color: #21243d;
     color: whitesmoke;
     height: 40px;
     width: 150px;
     border-radius: 20px;
     margin: 20px;
     border: none;
-    /* margin-top: -32px; */
-  
   }
   ul{
     list-style: none;
@@ -68,11 +56,10 @@
 
   .logo{
     height: 20px;
-    /* width: ; */
   }
 
 
-/* .....................................pg-2 css start ............................ */
+/* ..............................pg-2 css start ............................ */
 
 
   .header {
@@ -81,14 +68,6 @@
     background-color: #21243d;
     color: white;
   } 
-  /* #second {
-    background-color: teal;
-    color: khaki;
-  } */
-  /* #first {
-    background-color: khaki;
-    color: teal;
-  } */
   .container {
     width: 90%;
     margin: 0 auto;
@@ -116,7 +95,7 @@
     position: absolute;
     top: 70%;
     left: -50px;
-    /* background-color: #ffd17e; */
+  
   }
   .shape2{
     position: absolute;
@@ -155,22 +134,21 @@
 .page-3{
   background-color: rgb(226, 173, 37);
   /* overflow-x: hidden; */
+
 }
 .page003{
   display: flex;
   padding: 70px;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .img01{
   z-index: 2;
 }
 .page03t{
-  /* background-color: #21243d; */
   color: #21243d;
-
-    padding: 90px;
+  padding: 90px;
   font-size: 30px;
 }
 .shape31{
@@ -277,7 +255,11 @@
   display: flex;
   padding: 70px;
 }
-
+.page05t{
+  color: #21243d;
+  padding: 90px;
+  font-size: 30px;
+}
 
 
 /* ...............page-6 css start here .......................... */
@@ -287,7 +269,6 @@
   background-repeat: no-repeat;
 }
 .page06{
-  /* margin: 0 auto; */
   text-align: center;
   padding: 100px;
   color: white;
@@ -299,7 +280,6 @@
 
 .page-7{
   background-color:rgb(250, 200, 94);
-  /* position: relative; */
 }
 .page07{
   text-align: center;
@@ -317,7 +297,6 @@
   margin-top: 50px;
 }
 .frm{
-  /* position: relative; */
   padding-top: 50px;
 }
 input{
@@ -337,7 +316,7 @@ button.btn{
     color: whitesmoke;
     height: 45px;
     width: 15%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none; 
 }
 
@@ -352,14 +331,13 @@ button.btn{
   color: white;
   padding: 130px;
   box-sizing: border-box;
+  font-size:large;
   font-weight: 400;
-  /* gap: 100px; */
 }
 .table{
   padding: 100px;
   justify-content: space-around;
   display: flex;
-  /* line-height: 30px; */
 }
 .title-2{
   line-height: 30px;
