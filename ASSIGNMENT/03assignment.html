@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT CLIPPATH</title>
+    <style>
+        div{
+            width: 100%;
+            height: 600px;
+            margin: 0 auto;
+            background: url(../IMAGE/ocean01.jpg);
+            /* background-size: cover; */
+        }
+        .wrapper{
+            padding: 5px;
+            /* padding-right: 20px; */
+            /* margin: 20px; */
+        }
+        .container{
+            clip-path: polygon(0 0, 100% 0, 100% 61%, 47% 84%, 0 61%);
+        }
+        nav{
+            display: flex;   
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            color: white;
+        }
+        ul li{
+        
+        }
+        ul li a{
+            color: red;
+        }
+        .center{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <img src="../IMAGE/assignmentlogo.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li>ABOUT US</li>
+                    <li>PORTFOLIO</li>
+                    <li>PRICING</li>
+                    <li>TEAM</li>
+                    <li>BLOG</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+            <div class="center">
+                <h4>Our Clients Are Our First Priority</h4>
+                <h1>WELCOME TO SKY</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia <br>hic alias minus dicta itaque optio tempore dignissimos <br>sequi commodi excepturi, soluta culpa placeat?   </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
