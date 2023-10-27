@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiple background</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            position: relative;
+        }
+        .cols{
+            background-color: black;
+            width: 50%;
+            height: 600px;
+            color: white;
+            text-align: end;
+            padding: 90px;
+        }
+        .cols h4{
+            color: red;
+        }
+        .colv{
+            background: url(../IMAGE/03IMAGE.jpg) no-repeat center center/cover;
+            width: 50%;
+            height: 600px;
+        }
+        .desktop01{
+            position: absolute;
+            top: 25%;
+            left: 47%;
+        }
+        .books{
+            position: absolute;
+            top: 45%;
+            left: 47%;
+        }
+        .camera{
+            position: absolute;
+            top: 65%;
+            left: 47%;
+        }
+        .red{
+            position: absolute;
+            top: 16%;
+            right: 53%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cols">
+            <h1>OUR SERVICES</h1>
+            <br>
+            <br>
+            <h4>WEB DESIGHN</h4>
+            <br>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt <br> iusto consectetur doloribus, aliquam veniam velit?</P>
+            <br>
+            <br>
+            <h4>PAINT DESSIGHN</h4>
+            <br>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt <br> iusto consectetur doloribus, aliquam veniam velit?</P>
+            <br>
+            <br>
+            <h4>PHOTOGRAPHY</h4>
+            <br>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt <br> iusto consectetur doloribus, aliquam veniam velit?</P>
+            <br>
+        </div>
+        <div class="colv"></div>
+        <div class="desktop01">
+            <img src="../IMAGE/desktop01.png" alt="">
+        </div>
+        <div class="books">
+            <img src="../IMAGE/books01.png" alt="">
+        </div>
+        <div class="camera">
+            <img src="../IMAGE/camera01.png" alt="">
+        </div>
+        <div class="red">
+            <img src="../IMAGE/redline01.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
