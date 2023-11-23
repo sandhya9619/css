@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    margin: 10px;
+
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav2 p{
+    margin: 10px;
+}
+button.getstsrted{
+    border: none;
+    background-color: rgb(214, 189, 239);
+    padding: 15px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #794CFF;
+
+}
+
+
+/* container start here.............. */
+
+.save {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+button.save90{
+    border: none;
+    background: #81C43B;
+    border-radius: 100px;
+    margin-left: 110px;
+    text-align: center;
+    padding: 10px 20px;
+}
+button.get-account{
+    background: #F2F9EB;
+    border-radius: 0px 100px 100px 0px;
+    border: none;
+    padding: 10px 40px;
+}
+.cont h1{
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #35414B;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.para-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4E5A65;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.text-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.mail {
+    box-sizing: border-box;
+    width: 319px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5EA;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.btn-4 {
+    box-sizing: border-box;
+    width: 160px;
+    height: 50px;
+    background: #794CFF;
+    border: 1px solid #794CFF;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.img {
+    width: 950px;
+    height: 650.29px;
+    margin-left: 100px;
+}
+
+.para-2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #4E5A65;
+}
+
+.text-3>img {
+    padding: 20px;
+    margin-left: 90px;
+}
+
+
+
+/* ............container-2 css start here.............. */
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+box-sizing: border-box;
+background: #f5f3fc;
+border: 1px solid #F0EBFA;
+
+}
+
+.timeline2{
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    gap: 20px;
+    line-height: 25px;
+}
+
+.name1{
+background: #f0edf8;
+border: 1px solid #F0EBFA;
+
+}
+
+/*................container-3 css start here................ */
+
+.container-3 h1{
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    /* margin: 20px; */
+
+}
+.anonimous,.conversation,.Exclusive{
+    padding: 40px;
+
+}
+
+
+
+/* container-4 css start here............. */
+
+.container-4{
+    display: flex;
+    justify-content: space-around;
+background: #f8f6ff;
+border: 1px solid #F0EBFA;
+    /* margin-top: 30px; */
+
+}
+
+.firstln{
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 70px;
+}
+.secondln{
+    padding: 30px;
+}
+.firstln,h1,p,button{
+    padding: 15px;
+}
+button.get{
+    background-color: rgb(131, 131, 252);
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 15px;
+    /* height: 20px; */
+}
+
+
+
+/* ..........container-5 css start here........... */
+
+
+.container-5{
+    text-align: center;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.jorge,.francisco,.beth{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 10%;
+    /* border: px solid black; */
+background: #796EFF;
+padding: 50px;
+border-radius: 16px;
+
+
+
+}
+
+.GA{
+    display: flex;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    gap: 20px;
+}
+
+
+
+/* ...............footer css start here....... */
+
+
+
+.footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+.footer1{
+    background-color: black;
+    color: aliceblue;
+
+
+}
