@@ -228,8 +228,6 @@ button.get {
     /* height: 20px; */
 }
 
-
-
 /* ..........container-5 css start here........... */
 
 
@@ -241,6 +239,7 @@ button.get {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    
 }
 
 .jorge,
@@ -249,6 +248,13 @@ button.get {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    height: 139px;
+    width: 320px;
+}
+.img1, .img2, .img3{
+    height: 150px;
+    width: 70px;
+    padding-top: 50px;
 }
 
 .box {
@@ -261,6 +267,7 @@ button.get {
     /* border: px solid black; */
     background: #796EFF;
     padding: 50px;
+
     border-radius: 16px;
 
 
