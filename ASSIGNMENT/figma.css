@@ -81,6 +81,10 @@ button.get-account {
     width: 55%;
     margin: 0 auto;
 }
+.img-1{
+    text-align: center;
+    margin-right: 60px;
+}
 
 .para-1 {
     font-family: 'Inter';
@@ -172,20 +176,27 @@ button.get-account {
 
 .container-3 h1 {
     text-align: center;
+    /* padding: 60px; */
+    /* padding-bottom: 20px; */
 }
 
 .text {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-    /* margin: 20px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 90px;
+}
+.text p{
+    margin-left: -12px;
+}
 
+.text img{
+    margin-top: 30px;
 }
 
 .anonimous,
 .conversation,
 .Exclusive {
-    padding: 40px;
+    /* padding: 20px; */
 
 }
 
@@ -198,12 +209,10 @@ button.get-account {
     justify-content: space-around;
     background: #f8f6ff;
     border: 1px solid #F0EBFA;
-    /* margin-top: 30px; */
 
 }
 
 .firstln {
-    /* text-align: center; */
     margin: 0 auto;
     padding: 70px;
 }
@@ -225,37 +234,92 @@ button.get {
     color: aliceblue;
     border-radius: 5px;
     margin-left: 15px;
-    /* height: 20px; */
 }
 
-/* ..........container-5 css start here........... */
+/* contener-5 start here */
 
-
-.container-5 {
+.para-11 {
+    width: 394px;
+    height: 96px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
     text-align: center;
+    margin: 0 auto;
+    color: #35414B;
+    margin-top: 50px;
+
 }
 
-.three {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    
+.para-12 {
+    width: 543px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    margin: 10px auto;
+    color: #4E5A65;
+
 }
 
-.jorge,
-.francisco,
-.beth {
+.ppl-3 {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    height: 139px;
-    width: 320px;
+    justify-content: space-evenly;
+    margin-left: -80px;
+    margin-top: 90px;
 }
-.img1, .img2, .img3{
-    height: 150px;
-    width: 70px;
-    padding-top: 50px;
+
+.e5 {
+    width: 48px;
+    height: 48px;
+    left: 532px;
+
 }
+
+.e6 {
+    width: 48px;
+    height: 48px;
+    left: 532px;
+}
+
+.e7 {
+    width: 48px;
+    height: 48px;
+    left: 532px;
+}
+
+.text-5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 17.203rem;
+    margin-top: -3.797rem;
+    gap: 69px;
+}
+
+.N2 {
+    width: 145px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #4E5A65;
+    margin-left: -50px;
+
+}
+
+.N1 {
+    width: 220px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #4E5A65;
+    margin-left: -50px;
+
+}
+
+/* container-6  csss start here....  */
 
 .box {
     display: flex;
@@ -264,7 +328,6 @@ button.get {
     font-size: 25px;
     color: aliceblue;
     margin-left: 10%;
-    /* border: px solid black; */
     background: #796EFF;
     padding: 50px;
 
@@ -276,8 +339,6 @@ button.get {
 
 .GA {
     display: flex;
-    /* padding: 10px; */
-    /* margin: 10px; */
     gap: 20px;
 }
 

@@ -1,52 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
-.container{
+
+.container {
     display: flex;
-    /* text-align: center; */
+    margin-left: 392px;
     margin: 0 auto;
-    /* width: 100%; */
 }
-.col-50{
-    /* padding: 100px; */
-}
-input{
+
+input {
     border: none;
 }
-button{
+
+button {
     background-color: teal;
     color: white;
-    /* border-radius: 20px; */
     border: none;
-    /* padding: 20px; */
     height: 50px;
     width: 100%;
 }
-.or01{
+
+.or01 {
     text-align: center;
 }
-.signin{
+
+.signin {
     background-color: teal;
 }
-.signin01{
-    /* padding: 100px; */
+
+.signin01 {
     text-align: center;
 
 }
-button.btn{
+
+button.btn {
     border: 2px solid white;
     border-radius: 30px;
 }
-.ball{
+
+.ball {
     color: white;
     text-align: center;
 }
-.signinp{
+
+.signinp {
     color: white;
     text-align: center;
 }
-.signup{
-    /* width: 100%; */
+
+.signup {
 }
