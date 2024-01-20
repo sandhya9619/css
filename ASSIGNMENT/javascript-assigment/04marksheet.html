@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery-Assesment</title>
+</head>
+<style>
+    th {
+        text-align: start;
+    }
+
+    input {
+        width: 300px;
+        height: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .mark {
+        width: 50px;
+        border: none;
+    }
+</style>
+
+<body>
+    <!-- <fieldset> -->
+
+    <form action="">
+        <table align="">
+            <caption>
+                <h1>Marksheet for information technology</h1>
+            </caption>
+            <tr>
+                <th> C Language</th>
+                <td><input type="" placeholder="" id="clang"></td>
+            </tr>
+            <tr>
+                <th> C++ Language</th>
+                <td><input type="" placeholder="" id="cpplang"></td>
+            </tr>
+            <tr>
+                <th>Databage</th>
+                <td><input type="" placeholder="" id="database"></td>
+            </tr>
+
+            <tr>
+                <th> HTML</th>
+                <td><input type="" placeholder="" id="html"></td>
+            </tr>
+
+            <tr>
+                <th> CSS</th>
+                <td><input type="" placeholder="" id="css"></td>
+            </tr>
+            <tr>
+                <th> PHP</th>
+                <td><input type="" placeholder="" id="php"></td>
+            </tr>
+            <tr>
+                <th> Corejava</th>
+                <td><input type="" placeholder="" id="corejava"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><button onclick="Result()">Result</button></td>
+            </tr>
+
+
+
+        </table>
+    </form>
+    <!-- </fieldset> -->
+    <label for="">Total is :</label>
+    <input type="text" class="mark" id="Total">/350
+    <br>
+    <label for="">percentage is :</label>
+    <input type="text" class="mark" id="percent">%
+
+
+    <script>
+        function Result() {
+            let a = parseInt( document.getElementById("clang").value);
+            let b = parseInt( document.getElementById("cpplang").value);
+            let c = parseInt( document.getElementById("database").value);
+            let d = parseInt( document.getElementById("html").value);
+            let e = parseInt( document.getElementById("css").value);
+            let f = parseInt( document.getElementById("php").value);
+            let g = parseInt( document.getElementById("corejava").value);
+            let sum = a+b+c+d+e+f+g
+            console.log(sum);
+            document.getElementById("Total").value=sum;
+            let percent = sum* 100 /350;
+            console.log(percent);
+            document.getElementById("percent").value=percent;
+            
+        }
+    </script>
+
+
+
+</body>
+
+</html>
