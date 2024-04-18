@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Number</title>
+</head>
+
+<body>
+    <!-- <h4>Q.32 Write to print factorial of given number?</h4> -->
+    <label for="">Enter a number</label>
+    <input type="" id="factnum" value="" onchange="fact()">
+    <br>
+    <b id="number"></b>
+
+    <script>
+
+        let a = document.getElementById("factnum")
+        console.log(a)
+        console.log(a.value)
+
+        function fact() {
+
+
+            for (let i = 1; i <= 5; i++) {
+                // const element = array[i];
+                let a = document.getElementById("factnum")
+
+                i = a * 1
+
+                do {
+                    // console.log(arr[ i]);
+                    i--
+
+                } while (i < a);
+
+                document.getElementById("number").innerHTML = "The factorial of number " + a + " is " + i;
+            }
+
+           
+        }
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Years into days & Days into year</title>
+    <style>
+        b{
+            border: 1px solid rgb(231, 28, 28);
+        }
+        #year{
+            width: 20px;
+        }
+    </style>
+</head>     
+<body>
+    <h2>convert year into days</h2>
+    <input type="enter year" id="enter-year" value="">
+    <br>
+    <b id="year"></b>
+
+
+
+    <script>
+        let a = parseInt( document.getElementById("enter-year"));
+        console.log(a);
+        // let b = document.getElementById("year");
+        // console.log(b);
+        // let formula = a*365;
+        // formula.document.getElementById("year").innerhtml
+        let doc = parseInt( document.getElementById("year"))
+
+        // document.getElementById("year").innerhtml = a * 365;
+        doc.innerHTML = (a * 365)
+    </script>
+</body>
+</html>
