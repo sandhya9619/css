@@ -9,40 +9,23 @@
 
 <body>
     <!-- <h4>Q.32 Write to print factorial of given number?</h4> -->
-    <label for="">Enter a number</label>
-    <input type="" id="factnum" value="" onchange="fact()">
+    <label for="factnum">Enter a number</label>
+    <input type="number" id="factnum" value="" onchange="fact()">
     <br>
     <b id="number"></b>
 
     <script>
-
-        let a = document.getElementById("factnum")
-        console.log(a)
-        console.log(a.value)
-
         function fact() {
+            let a = parseInt(document.getElementById("factnum").value);
+            let factorial = 1;
 
-
-            for (let i = 1; i <= 5; i++) {
-                // const element = array[i];
-                let a = document.getElementById("factnum")
-
-                i = a * 1
-
-                do {
-                    // console.log(arr[ i]);
-                    i--
-
-                } while (i < a);
-
-                document.getElementById("number").innerHTML = "The factorial of number " + a + " is " + i;
+            for (let i = 1; i <= a; i++) {
+                // factorial *= i;
+                document.write(1*=i)
             }
 
-           
+            document.getElementById("number").innerHTML = "The factorial of number " + a + " is " + factorial;
         }
-
-
-
     </script>
 </body>
 

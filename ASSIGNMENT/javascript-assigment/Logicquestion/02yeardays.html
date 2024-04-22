@@ -15,23 +15,29 @@
 </head>     
 <body>
     <h2>convert year into days</h2>
-    <input type="enter year" id="enter-year" value="">
+    <input type="number" id="enter_year" value="">
+    <button onclick="chech()">Chech</button>
     <br>
     <b id="year"></b>
 
 
 
     <script>
-        let a = parseInt( document.getElementById("enter-year"));
-        console.log(a);
-        // let b = document.getElementById("year");
-        // console.log(b);
-        // let formula = a*365;
-        // formula.document.getElementById("year").innerhtml
-        let doc = parseInt( document.getElementById("year"))
-
-        // document.getElementById("year").innerhtml = a * 365;
-        doc.innerHTML = (a * 365)
+        function chech() {
+            
+            let a = parseInt( document.getElementById("enter_year").value);
+            console.log( typeof a);
+            console.log(a);
+            // let b = document.getElementById("year");
+            // console.log(b);
+            // let formula = a*365;
+            // formula.document.getElementById("year").innerhtml
+            let b =  document.getElementById("year")
+            
+            // document.getElementById("year").innerhtml = a * 365;
+            console.log(a*365);
+            b.innerHTML = (a * 365);
+        }
     </script>
 </body>
 </html>

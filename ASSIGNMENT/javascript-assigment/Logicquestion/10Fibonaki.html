@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonaki series</title>
 </head>
+
 <body>
+    <label for="">Enter Number :</label>
+    <input type="number" id="fibonakiid">
+    <button onclick="Check()">Check</button>
+    <span id="spanid"></span>
     <script>
-        
+        function Check() {
+
+            let fibonaki = parseInt(document.getElementById("fibonakiid").value)
+            console.log(typeof fibonaki);
+
+            for (let i = 0; i <= fibonaki.value; i++) {
+                // const element = array[i];
+
+
+                let spanid = document.getElementById("spanid");
+
+                spanid.innerHTML = (fibonaki *i);
+            }
+
+
+
+
+        }
     </script>
 </body>
+
 </html>

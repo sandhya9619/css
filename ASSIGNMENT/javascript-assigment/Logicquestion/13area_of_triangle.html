@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of triangle</title>
+</head>
+<body>
+<label for="">Enter base of triangle</label>
+<input type="number" id="baseid">
+<br>
+<label for="">Enter height of triangle</label>
+<input type="number" id="heightid">
+<br>
+<button onclick="check()">Check</button>
+<br>
+<span id="spanid"></span>
+
+    <script>
+        //area of triangle formula = 1/2 base * height
+
+        function check() {
+            let baseid = document.getElementById("baseid");
+            console.log(typeof baseid);
+
+            let heightid=document.getElementById("heightid");
+            console.log(typeof heightid);
+
+            let spanid = document.getElementById("spanid");
+            console.log(spanid);
+            spanid.innerHTML= (baseid.value * heightid.value)/2;
+        }
+
+    </script>
+</body>
+</html>
