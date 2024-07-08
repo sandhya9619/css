@@ -81,10 +81,6 @@ button.get-account {
     width: 55%;
     margin: 0 auto;
 }
-.img-1{
-    text-align: center;
-    margin-right: 60px;
-}
 
 .para-1 {
     font-family: 'Inter';
@@ -176,27 +172,19 @@ button.get-account {
 
 .container-3 h1 {
     text-align: center;
-    /* padding: 60px; */
-    /* padding-bottom: 20px; */
 }
 
 .text {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-left: 90px;
-}
-.text p{
-    margin-left: -12px;
-}
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
 
-.text img{
-    margin-top: 30px;
 }
 
 .anonimous,
 .conversation,
 .Exclusive {
-    /* padding: 20px; */
+    padding: 40px;
 
 }
 
@@ -236,90 +224,28 @@ button.get {
     margin-left: 15px;
 }
 
-/* contener-5 start here */
 
-.para-11 {
-    width: 394px;
-    height: 96px;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
+
+/* ..........container-5 css start here........... */
+
+
+.container-5 {
     text-align: center;
-    margin: 0 auto;
-    color: #35414B;
-    margin-top: 50px;
-
 }
 
-.para-12 {
-    width: 543px;
-    height: 96px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    text-align: center;
-    margin: 10px auto;
-    color: #4E5A65;
-
-}
-
-.ppl-3 {
+.three {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -80px;
-    margin-top: 90px;
+    justify-content: space-around;
+    margin: 20px;
 }
 
-.e5 {
-    width: 48px;
-    height: 48px;
-    left: 532px;
-
-}
-
-.e6 {
-    width: 48px;
-    height: 48px;
-    left: 532px;
-}
-
-.e7 {
-    width: 48px;
-    height: 48px;
-    left: 532px;
-}
-
-.text-5 {
+.jorge,
+.francisco,
+.beth {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 17.203rem;
-    margin-top: -3.797rem;
-    gap: 69px;
+    justify-content: space-between;
+    border: 1px solid black;
 }
-
-.N2 {
-    width: 145px;
-    height: 16px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 32px;
-    color: #4E5A65;
-    margin-left: -50px;
-
-}
-
-.N1 {
-    width: 220px;
-    height: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    color: #4E5A65;
-    margin-left: -50px;
-
-}
-
-/* container-6  csss start here....  */
 
 .box {
     display: flex;
@@ -330,7 +256,6 @@ button.get {
     margin-left: 10%;
     background: #796EFF;
     padding: 50px;
-
     border-radius: 16px;
 
 
@@ -352,7 +277,6 @@ button.get {
     color: aliceblue;
     display: flex;
     justify-content: space-around;
-    /* margin: 0 auto; */
     align-items: center;
 }
 

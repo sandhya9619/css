@@ -54,7 +54,12 @@
     <h4>Q.6 Using console.log() print out the following statement: The quote 'There is no exercise
         better for the heart than reaching down and lifting people up.' by John Holmes teaches us to
         help one another. Using console.log() print out the following quote by Mother Teresa: </h4>
-    <p></p>
+    <p>
+        <script>
+            console.log("'There is no exercisebetter for the heart than reaching down and lifting people up.");
+            console.log();
+        </script>
+    </p>
 
     <h4>Q.7 Check if typeof '10' is exactly equal to 10. If not make it exactly equal?</h4>
     <p><a href="11check_typeof.html">check typeof </a></p>
@@ -86,9 +91,101 @@
             <p>the answer of this expression is true.</p>
 
             <h4>Q.16 What is the result of the expression (true && 1 && "hello")?</h4>
-            <p></p>
+            <p>This statement return true because all given value in expression are truthy value.</p>
 
+            <h4>Q.17 What is the result of the expression true && false || false && true? </h4>
+            <p>This expression return false because if we break this true && false gives false , false || false gives
+                false,
+                false && true gives false so final output is false.</p>
 
+            <h4>Q.18 What is a Loop and Switch Case in JavaScript define that ? </h4>
+            <p>Loop => if have to perform a task for certain number of time.
+                Switch Case => in this we give an expression and certain number of cases. When the first case match with
+                expression value, it return true.</p>
+            <h4>Q.19 What is the use of is Nan function?</h4>
+            <p> Nan function is exists for checking the given value is not a number.</p>
+
+            <h4>Q.20 What is the difference between && and || in JavaScript?</h4>
+            <p>In && opretor both condition have to be true to execute and || in this if one condition is true
+                from the given it will be execute.</p>
+
+            <h4>Q.22 Check Number Is Positive or Negative in JavaScript ?</h4>
+            <p>
+                <script>
+                    let num1 = 25;
+
+                    if (num1 < 0) {
+                        console.log('value is negative');
+                    }
+                    else {
+                        console.log('value is positive');
+                    }
+                </script>
+            </p>
+
+            <h4>Q.23 Find the Character Is Vowel or Not ?</h4>
+            <p>
+                <script>
+                    let char = 'k';
+                    if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u') {
+                        console.log('This is a Vowel');
+                    }
+                    else {
+                        console.log('This is not a Vowel');
+                    }
+                </script>
+            </p>
+
+            <h4>Q.24 Write to check whether a number is negative, positive or zero ?</h4>
+            <p>
+                <script>
+                    let num2 = -1;
+
+                    if (num2 < 0) {
+                        console.log('value is negative');
+                    }
+                    else if (num2 == 0) {
+                        console.log('value is Zero');
+                    }
+                    else {
+                        console.log('value is Positive');
+                    }
+                </script>
+            </p>
+
+            <h4>Q.25 Write to find number is even or odd using ternary operator in JS ?</h4>
+            <p>
+                <script>
+                    let number = 7;
+                    let result = (number % 2 === 0) ? "Even" : "Odd";
+                    console.log(result);
+                </script>
+            </p>
+
+            <h4>Q.28 Write to find the largest of three numbers in JS? </h4>
+            <p> function Maximum(a,b,c){
+                return Math.max(a,b,c);
+                };
+                <script>
+                    function Maximum(a, b, c) {
+                        return Math.max(a, b, c);
+                    };
+                </script>
+            </p>
+
+            <h4>Q.30 What are the looping structures in JavaScript? Any one Example? </h4>
+            <p>
+                Java Script provides vast looping structure.It includes loops like for, while, do..while,
+                for..in,for..of,for..each.
+
+                <script>
+
+                    for(let i = 1; i <= 5; i++) {
+                        console.log(i);
+                    };
+
+                </script>
+            </p>
 
             <h4>Q.31 Write a print 972 to 897 using for loop in JS?</h4>
             <p><a href="04forloop.html">print 972 t0 897 using for loop</a></p>
@@ -145,11 +242,11 @@
     <br>
 
     <h4>Q.47 What is the drawback of declaring methods directly in JavaScript objects? </h4>
-    <p> =>  Method duplication <br>
+    <p> => Method duplication <br>
         => Consumes More memory <br>
-        =>  inefficient </p>
+        => inefficient </p>
 
-    <h4> Q.48 Print the length of the string on the browser console using console.log()?  </h4>   
+    <h4> Q.48 Print the length of the string on the browser console using console.log()? </h4>
     <p>let str="madha"; <br>
         console.log(str.length);</p>
 
@@ -158,41 +255,49 @@
         let str2=str.toUpperCase(); <br>
         console.log(str2);</p>
 
-    <h4>Q.52 Use indexOf to determine the position of the first occurrence of a in 	30 Days Of JavaScript?</h4>
+    <h4>Q.52 Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript?</h4>
     <p>let str = "30 Days Of JavaScript"; <br>
         let index = str.indexOf('a'); <br>
         console.log(index); </p>
 
-    <h4>Q,53 Use lastIndexOf to determine the position of the last occurrence of a 	in 30 Days Of JavaScript? </h4>
+    <h4>Q,53 Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript? </h4>
     <p>let str = "30 Days Of JavaScript"; <br>
         let lastIndex = str.lastIndexOf('a'); <br>
         console.log(lastIndex); </p>
 
-    <h4>Q.54 Form Validtion in JS?  </h4>
-    <p> Form validation in JavaScript is the process of ensuring that user input meets the required criteria before the form data is submitted to 	the server. </p>
+    <h4>Q.54 Form Validtion in JS? </h4>
+    <p> Form validation in JavaScript is the process of ensuring that user input meets the required criteria before the
+        form data is submitted to the server. </p>
 
     <h4>Q.55 Form in Email, number, Password, Validation? </h4>
-    <p>This can be achieved by using JavaScript to check for empty fields, 	proper formats matching emial,number,passwords, and other custom 	validations.</p>
+    <p>This can be achieved by using JavaScript to check for empty fields, proper formats matching
+        emial,number,passwords, and other custom validations.</p>
 
     <h4>Q.56 Dynamic Form Validation in JS?</h4>
-    <p>Dynamic form validation in JavaScript refers to the process of 	validating form input in real-time as the user interacts with the 	form, rather than only validating once the form is submitted.</p>
+    <p>Dynamic form validation in JavaScript refers to the process of validating form input in real-time as the user
+        interacts with the form, rather than only validating once the form is submitted.</p>
 
     <h4>Q.57 how many type of JS Event? How to use it ?</h4>
-    <p>There are several types of events in JavaScript. These include mouse 	events (e.g., click, dblclick, mouseover, mouseout), keyboard events 	(e.g., keydown, keypress, keyup), form events (e.g., submit, change, 	focus, blur), window events (e.g., load, resize, scroll), and document 	events (e.g., DOMContentLoaded).
-        To use these events, you typically attach event listeners to HTML 	elements using methods like addEventListener().
+    <p>There are several types of events in JavaScript. These include mouse events (e.g., click, dblclick, mouseover,
+        mouseout), keyboard events (e.g., keydown, keypress, keyup), form events (e.g., submit, change, focus, blur),
+        window events (e.g., load, resize, scroll), and document events (e.g., DOMContentLoaded).
+        To use these events, you typically attach event listeners to HTML elements using methods like
+        addEventListener().
 
     </p>
 
     <h4>Q.58 What is Bom vs Dom in JS?</h4>
     <p>Bom represent browser object model and Dom represent document
-        obeject model. Bom contain browser related features providing 	methods and properties to interact with the browser.DOM enables 	dynamic access and modification of the content, structure, and style 	of a webpage, facilitating interactive web applications.</p>
+        obeject model. Bom contain browser related features providing methods and properties to interact with the
+        browser.DOM enables dynamic access and modification of the content, structure, and style of a webpage,
+        facilitating interactive web applications.</p>
 
     <h4>Q.59 Array vs object defences in JS?</h4>
-    <p>Arrays are collection of data types. We can store string, number 
+    <p>Arrays are collection of data types. We can store string, number
         boolean, object and many data types in array. Array provide many
-        methods with it like push, pop, splice, slice, shift, unshift and many 
+        methods with it like push, pop, splice, slice, shift, unshift and many
         more,
-    
+
         Object are collection of key value pair. Where values are accessed
         by key name, </p>
 
@@ -213,13 +318,46 @@
         console.log(str.charAt(15));
     </p>
 
-    <h4>Q.64 copy to one string to another string in JS?  </h4>
+    <h4>Q.64 copy to one string to another string in JS? </h4>
     <p>let str = "madha"; <br>
         let str2=str;</p>
 
     <h4>Q.65 Find the length of a string without using libraryFunction? </h4>
     <p>let str='madha'; <br>
         console.log(str.length);</p>
+
+    <h4>Q.66 Write to show <br>i. Monday to Sunday using switch case in JS? </h4>
+    <p>
+        <script>
+
+            let num = e;
+            switch (num) {
+                case 1:
+                    console.log("Monday");
+                    break;
+                case 2:
+                    console.log("Tuesday");
+                    break;
+                case 3:
+                    console.log("Wednesday");
+                    break;
+                case 4:
+                    console.log("Thursday");
+                    break;
+                case 5:
+                    console.log("Friday");
+                    break;
+                case 6:
+                    console.log("Saturday");
+                    break;
+                case 7:
+                    console.log("Sunday");
+                    break;
+            } 
+        </script>
+    </p>
+
+
 
 </body>
 
